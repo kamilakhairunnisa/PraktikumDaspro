@@ -20,6 +20,8 @@ public class ifCetakKRSNo08 {
             System.out.println("Pembayaran UKT Tidak Terverifikasi");
             System.out.println("Registrasi ditolak. Silakan lunasi UKT terlebih dahulu");
         }
-            
+
+        String modifikasi = (UktLunas) ? "Pembayaran UKT Tidak Terverifikasi/nSilahkan Cetak KRS dan minta tanda tangan DPA" : "Pembayaran UKT Tidak Terverifikasi/nRegistrasi ditolak. Silakan lunasi UKT terlebih dahulu";
+        System.out.println(modifikasi);
 }
 }
