@@ -2,6 +2,4 @@ Halo GitHub, ini adalah repository pertama saya
 
 ini fitur baru
 ini fitur 2
-ini fitur 3
-
-erinazzahra kamila kahirunnisa, percobaan!!!
+ini fitur 4
