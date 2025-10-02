@@ -9,36 +9,26 @@ public class swicthCetakKRS08 {
         System.out.println("Masukkan Semester Saat Ini: ");
         int Semester = sc.nextInt();
 
-        switch (Semester) {
-            case 1:
+        if (Semester == 1 ) {
                 System.out.println("KRS Semester 1 ditampilkan");
-                break;
-            case 2:
+        }else if (Semester == 2 ) {
                 System.out.println("KRS Semester 2 ditampilkan");
-                break;
-            case 3:
+        }else if (Semester == 3 ) {
                 System.out.println("KRS Semester 3 ditampilkan");
-                break;
-            case 4:
+        }else if (Semester == 4 ) {
                 System.out.println("KRS Semester 4 ditambilkan");
-                break;
-            case 5:
+        }else if (Semester == 5 ) {
                 System.out.println("KRS Semester 5 ditampilkan");
-                break;
-            case 6:
+        }else if (Semester == 6 ) {
                 System.out.println("KRS Semester 6 ditampilkan");
-                break;
-            case 7:
+        }else if (Semester == 7 ) {
                 System.out.println("KRS Semester 7 ditampilkan");
-                break;
-            case 8:
+        }else if (Semester == 8 ) {
                 System.out.println("KRS Semester 8 ditampilkan");
-                break;
-            default:
+        }else
                 System.out.println("Semester tidak valid");
 
             }
 
 
     }
-}
